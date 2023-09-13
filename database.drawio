@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-09-13T08:31:59.639Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="pOWakSOi96NtloQQGjhc" version="21.7.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-09-13T08:38:27.696Z" agent="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/110.0.0.0 Safari/537.36" etag="zAaTgIlhvSqFiIyqyDV_" version="21.7.4" type="github">
   <diagram name="Page-1" id="1YqTaJntaDhlGhBVYmfw">
-    <mxGraphModel dx="2515" dy="2968" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="575" dy="678" grid="0" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1654" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="CBCHBO-oQO6eX7guG4_X-8" value="et&amp;nbsp;&amp;nbsp;à un seul&amp;nbsp;Channel" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1408" y="299" width="238" height="46" as="geometry" />
+        </mxCell>
         <mxCell id="CBCHBO-oQO6eX7guG4_X-4" value="chaque user est lié&amp;nbsp;à une table unique qui garde ses stats de jeu" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=center;fontSize=11;" vertex="1" parent="1">
           <mxGeometry x="6" y="521" width="321" height="46" as="geometry" />
         </mxCell>
@@ -33,7 +36,7 @@
             <mxRectangle width="66.31578947368399" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="5a9SUv9irwIiewoasVEZ-39" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="5a9SUv9irwIiewoasVEZ-35" vertex="1">
+        <mxCell id="5a9SUv9irwIiewoasVEZ-39" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;perimeterSpacing=1;" parent="5a9SUv9irwIiewoasVEZ-35" vertex="1">
           <mxGeometry y="60" width="325.89473684210515" height="30" as="geometry" />
         </mxCell>
         <mxCell id="5a9SUv9irwIiewoasVEZ-40" value="" style="shape=partialRectangle;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;editable=1;overflow=hidden;whiteSpace=wrap;html=1;" parent="5a9SUv9irwIiewoasVEZ-39" vertex="1">
@@ -813,7 +816,7 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="5a9SUv9irwIiewoasVEZ-301" value="_ChannelUsers" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;html=1;fillColor=#bac8d3;strokeColor=#23445d;" parent="1" vertex="1">
-          <mxGeometry x="1136" y="469" width="153.3833333333339" height="90" as="geometry" />
+          <mxGeometry x="1135.998333333333" y="469" width="153.3833333333339" height="90" as="geometry" />
         </mxCell>
         <mxCell id="5a9SUv9irwIiewoasVEZ-305" value="" style="shape=tableRow;horizontal=0;startSize=0;swimlaneHead=0;swimlaneBody=0;fillColor=none;collapsible=0;dropTarget=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;top=0;left=0;right=0;bottom=0;" parent="5a9SUv9irwIiewoasVEZ-301" vertex="1">
           <mxGeometry y="30" width="153.3833333333339" height="30" as="geometry" />
@@ -939,6 +942,15 @@
         </mxCell>
         <mxCell id="CBCHBO-oQO6eX7guG4_X-6" value="chaque Channel est lié à un tableau de messages, un tableau de Users (le nombre total), un tableau de Users ayant le&amp;nbsp;rôle ADMIN et un seul et unique OWNER" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
           <mxGeometry x="1051" y="1081" width="527" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="CBCHBO-oQO6eX7guG4_X-7" value="chaque message est lié à un seul User, author" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=left;fontSize=11;" vertex="1" parent="1">
+          <mxGeometry x="1408" y="239" width="238" height="46" as="geometry" />
+        </mxCell>
+        <mxCell id="CBCHBO-oQO6eX7guG4_X-9" value="sous-ensemble de channels dont est ADMIN le User" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=center;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="808.9973684210524" y="808" width="155.38" height="63" as="geometry" />
+        </mxCell>
+        <mxCell id="CBCHBO-oQO6eX7guG4_X-10" value="sous-ensemble de channels auxquels fait partie le User" style="shape=note;whiteSpace=wrap;html=1;backgroundOutline=1;fontColor=#000000;darkOpacity=0.05;fillColor=#FFF9B2;strokeColor=none;fillStyle=solid;direction=west;gradientDirection=north;gradientColor=#FFF2A1;shadow=1;size=20;pointerEvents=1;align=center;fontSize=11;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="1135" y="572" width="155.38" height="63" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
